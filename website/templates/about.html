@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="section-container-spacer text-center">
+            <h1 class="h2">03 : About me</h1>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="row">
+                <div class="col-xs-12 col-md-6">
+                  <h3>Who am I?</h3>
+                  <p>Creative and people-oriented Computer Science student with extensive project experience of creating application from scratch. Advanced knowledge of programming languages relevant to the web. Fluent in English, Mandarin Chinese, and Uyghur.</p>
+                  <h3>Education</h3>
+                  <p>CUNY - Hunter College | BA in Computer Science</p>
+                  <p>GPA: 3.85/4.0 | DEC 2022</p>
+                  <h3>Skills</h3>
+                  <p>Programming Language: C++, Python, JavaScript</p>
+                  <p>Framework: ReactJS, NodeJS / ExpressJS, Django</p>
+                  <p>Database: MangoDB, PostgreSQL, Firebase</p>
+                  <p>Version Control: Github, Heroku</p>
+                  <h3>Languages</h3>
+                  <p>English (Fluent) | Mandarin Chinese (Native) | Uighur (Native) | Japanese (Intermediate)</p>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                  <img src="{% static 'website/assets/images/profile.jpeg' %}" class="img-responsive" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+       </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
